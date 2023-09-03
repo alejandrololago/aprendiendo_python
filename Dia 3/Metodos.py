@@ -13,7 +13,7 @@ texto = "Este es el texto de prueba"
 resultado = texto.lower()
 print(resultado)
 
-##SPLIT
+##SPLIT Para separar el texto en una lista
 
 texto = "Este es el texto de prueba"
 resultado = texto.split() ## Asi por defecto toma como separador a los espacion vacios
