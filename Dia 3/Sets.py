@@ -1,3 +1,6 @@
+#En un set solo puede haber elementos unicos, no puede haber repetidos, si hay repetidos deja uno solo
+#Los elementos del set no estan ordenados en indices
+#Los elementos son inmutables
 mi_set = set([1,2,3,4,5])   # No puedo poner ni listas ni diccionarios dentro de un set Si se puede tuples porque son inmutables
 print(mi_set)
 
@@ -30,3 +33,5 @@ print(s1)
 sorteo = {"Camila", "Margarita", "Axel", "Jorge", "Miguel", "Mónica"}
 sor = sorteo.pop()
 print(sor)
+
+
