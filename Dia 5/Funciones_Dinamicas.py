@@ -33,3 +33,18 @@ def todos_positivos(lista_numeros):
 
 resultado2 = todos_positivos([90,99,1,88])
 print(resultado2)
+
+
+print("---------------------------------------")
+def suma_menores(lista_numeross):
+    suma = 0
+    for n in lista_numeross:
+        if n in range(0,1000):
+            suma += n
+        else:
+            pass
+    return suma
+
+lista_numeross = [80,10,10,2000]
+resultado3 = suma_menores(lista_numeross)
+print(resultado3)
