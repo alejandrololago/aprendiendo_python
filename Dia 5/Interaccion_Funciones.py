@@ -1,4 +1,5 @@
-from random import shuffle
+from random import *
+
 
 # Lista inicial
 palitos = ['-', '--', '---', '----']
@@ -52,4 +53,41 @@ print(evaluar_jugada(dado1, dado2))
 
 
 print("---------------------------------------")
+# EJERCICIO DE CODIFICACION 101
+from statistics import mean
+def reducir_lista(lista_numeros):
+    mi_set = set(lista_numeros)
+    lista_nueva = list(mi_set)
+    lista_nueva.pop(-1)
+    return lista_nueva
+
+def promedio(lista):
+    prom = mean(lista)
+    return prom
+
+lista_numeros = [6, 8, 10, 7, 9, 8,11]
+lista = reducir_lista(lista_numeros)
+print(lista)
+
+
+print("---------------------------------------")
+# EJERCICIO DE CODIFICACION 102
+def lanzar_moneda():
+        moneda = ['Cara', 'Cruz']
+        tiro = choice(moneda)
+        return tiro
+
+def probar_suerte2(tiro, lista_numeros2):
+    if tiro == 'Cara':
+        print('La lista se autodestruirá')
+        lista_numeros2.clear()
+        return lista_numeros2
+    else:
+        print('La lista fue salvada')
+        return lista_numeros2
+
+lista_numeros2 = [1, 2, 3]
+tiro = lanzar_moneda()
+probar_suerte2(tiro, lista_numeros2)
+print(lista_numeros2)
 
