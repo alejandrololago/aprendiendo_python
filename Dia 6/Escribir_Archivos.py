@@ -9,6 +9,7 @@ archivo.close()
 
 
 print("---------------------------------------")
+#Con a se escribe a partir del ultimo punto del archivo
 archivo = open("prueba.txt", "a")
 
 archivo.write('bienvenido')
