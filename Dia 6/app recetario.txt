@@ -1,0 +1,24 @@
+1-Bienvenida
+2-Informar ruta de acceso del directorio
+3-Informar cantidad de recetas
+4-Pedir que elija opcion:
+	1-Leer receta
+		-elegir categoria
+		-mostrar recetas
+		-elegir receta
+		-leer receta
+	2-Crear receta
+		-elegir categoria
+		-crear nombre
+		-crear contenido de la receta
+	3-Crear categoria
+		-preguntar nombre categoria y crear la carpeta
+	4-Eliminar receta
+		-elegir categoria
+		-mostrar recetas
+		-elegir receta
+		-eliminar receta
+	5-Eliminar categoria
+		-elegir categoria y eliminarla
+	6-Finalizar programa
+	
