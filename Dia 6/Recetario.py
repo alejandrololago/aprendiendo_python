@@ -17,7 +17,7 @@ def pedir_receta(ruta):
     return receta
 
 
-def leer_receta(ruta):
+#def leer_receta(ruta):
 
 
 
